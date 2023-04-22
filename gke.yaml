@@ -16,7 +16,7 @@ spec:
         app: gcp-devops-deploy
     spec:
       containers:
-      - image: gcr.io/first-server-384515/gcpdevops:latest
+      - image: gcr.io/first-server-384515/gcpdevops:latest 
         name: gcpdevops
         ports:
           - containerPort: 5000
