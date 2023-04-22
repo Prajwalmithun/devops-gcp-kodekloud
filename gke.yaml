@@ -5,7 +5,7 @@ metadata:
     app: gcp-devops-deploy
   name: gcp-devops-deploy
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: gcp-devops-deploy
