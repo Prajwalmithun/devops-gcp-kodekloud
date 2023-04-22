@@ -38,4 +38,4 @@ spec:
     targetPort: 5000
   selector:
     app: gcp-devops-deploy
-type: "LoadBalancer
+type: "LoadBalancer"
