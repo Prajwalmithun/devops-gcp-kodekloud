@@ -15,7 +15,7 @@ spec:
         app: gcp-devops-deploy
     spec:
       containers:
-      - image: gcr.io/first-server-384515/gcpdevops:latest 
+      - image: gcr.io/first-server-384515/gcpdevops-dev:latest 
         name: gcpdevops
         ports:
           - containerPort: 5000
@@ -30,7 +30,7 @@ metadata:
     app: gcp-devops-deploy
     app.kubernetes.io/managed-by: gcp-cloud-build-deploy
   name: gcp-devops-svc
-  namespace: gcp-devops-prod
+  namespace: gcp-devops-dev
 spec:
   ports:
   - port: 80
